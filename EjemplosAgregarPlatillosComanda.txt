@@ -1,0 +1,13 @@
+Given la comanda existente con folio 12 sin platillos capturados
+When agrego el platillo sopa de pasta a la comanda
+Then debe aparecer el platillo en la comanda 12
+
+Given la comanda existente con folio 12 con un platillo de sopa de pasta
+When agrego el platillo paella
+And modifico el platillo paella del comensal 1 al comensal 2
+Then los platillos que aparecen en la comanda 12 son sopa de pasta para el comensal 1 y paella para el comensal 2
+
+Given la comando existente con folio 12 con dos platillos
+When agrego el platillo milanesa al comensal 2
+and elimino el platillo milanesa
+then los platillos que aparecen en la comanda 12 son sopa de pasta para el comensal 1 y paella para el comensal 2

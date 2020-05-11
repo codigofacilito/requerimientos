@@ -1,0 +1,7 @@
+Given que existe una comanda con folio 12 con los platillos de milanesa, sopa de pasta, spagueti a la boloñesa y pechuga de pollo
+When selecciono el espagueti a la boloñesa
+And Lo paso a una nueva cuenta
+And selecciono la pechuga de pollo
+And lo paso a una nueva cuenta
+Then veo una comanda con folio 12 solo con los platillos de de milanesa y sopa de pasta
+And una nueva comanda con los platillos de espagueti a la boloñesa y pechuga de pollo
